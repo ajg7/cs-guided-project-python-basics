@@ -11,6 +11,8 @@ Examples:
 - nth_smallest([1, 3, 5, 7], 5) ➞ None
 - nth_smallest([7, 3, 5, 1], 2) ➞ 3
 """
+from typing import List
+
 def nth_smallest(lst: List[int], n: int) -> int:
     # Your code here
     lst.sort()
