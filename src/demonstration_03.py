@@ -20,6 +20,6 @@ def string_int(txt: str) -> int:
         # return the converted result
         return converted_int
     else:
-        return "not a valid number"
+        return f"{txt} is not a valid number"
 
-print(string_int("77"))
+print(string_int("7R7"))

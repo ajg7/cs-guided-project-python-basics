@@ -11,4 +11,8 @@ Examples:
 """
 def find_perimeter(length, width):
     # Your code here
-
+    #take length and width integers, treat them as the dimensions of an imaginary rectangle
+    # return the perimeter of this imaginary rectanlge
+    # 2 * length + 2 * width
+    
+    return 2 * length + 2 * width

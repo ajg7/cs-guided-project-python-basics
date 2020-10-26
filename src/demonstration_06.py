@@ -15,6 +15,14 @@ Examples:
 - XO("zpzpzpp") ➞ True (Returns True if no x and o)
 - XO("zzoo") ➞ False
 """
-def XO(txt):
+def XO(txt: str) -> bool:
     # Your code here
-
+    os = 0
+    xs = 0
+    for character in txt: 
+        if character == "x" or character == "X":
+            xs += 1
+        if character == "o" or character == "O":
+            os += 1
+            
+    return xs == os
